@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registraion form</title>
+</head>
+<body>
+    <h1>Kindly fill your details</h1>
+    <form action="">
+        <fieldset class = "personal">
+            <legend>Name</legend>
+        <div class="name">
+            <label for="firstname">Enter your first Name</label>
+            <input type="text" name="firstname" placeholder="first name">
+            <br>
+            <label for="middlename">Enter your middle Name</label>
+            <input type="text" name="middlename" placeholder="middle name">
+            <br>
+            <label for="lastname">Enter your last Name</label>
+            <input type="text" name="lastname" placeholder="last name">
+        </fieldset>
+            <fieldset>
+                <legend>Other Details</legend>
+            <div 
+            class="contact">
+            <label for="email">Enter your email</label>
+            <input type="text" name="email"  placeholder="email">
+            <label for="gender">Gender</label>
+            <input type="radio" name="gender" id="gender" value="Male">
+            <label for="gender" name = "gender">Male</label>
+            <input type="radio" name="gender" id="gender" value="Male">
+            <label for="gender" name = "gender">Female</label>
+            <input type="radio" name="gender" id="gender" value="Male">
+            <label for="gender" name = "gender">others</label>
+
+            <br>
+            <label for="email">Enter your Mobile no</label>
+            <input type="text" name="mobile"  placeholder="Mobile number">
+            <label for="dob">Enter your dob</label>
+            <input type="text" name="dob">
+        </div>
+        </fieldset>
+        <fieldset>
+            <legend>Course Details</legend>
+            <label for="rollno">Enter your roll no </label>
+            <input type="number" name = "rollno">
+            <label for="course">Choose your course</label>
+            <select name="course" id="course">
+                <option value="B.tech">B.tech</option>
+                <option value="B.Pharma"> B.Pharma</option>
+                <option value="D.pharma"> D.pharma</option>
+                <option value="M.tech">M.tech </option>
+                <option value="M.pharma">M.pharma </option>
+                <option value="MBA">MBA </option>
+            </select>
+            <label for="semester">SEMESTER</label>
+                <select name="semester" id="semester">
+                <option value="first">I</option>
+                <option value="second">II</option>
+                <option value="third">III</option>
+                <option value="fourth">IV</option>
+                <option value="fifth">V</option>
+                <option value="six">VI</option>
+                <option value="seven">VII</option>
+                <option value="eight">VIII</option>
+            
+            </select>
+            <label for="subjects">Programming language</label>
+            <input type="checkbox">
+            <label for="subjects">C and C++</label>
+            <input type="checkbox">
+            <label for="subjects">Python</label>
+            <input type="checkbox">
+            <label for="subjects">Java</label>
+            <input type="checkbox">
+            <label for="subjects">JavaScript</label>
+            <br>
+            <label for="about">Tell Something about yourself</label>
+            <br>
+            <textarea name="about" id="about" cols="30" rows="5"></textarea>
+            
+
+        </fieldset>
+        </div>
+    </form>
+    
+</body>
+</html>

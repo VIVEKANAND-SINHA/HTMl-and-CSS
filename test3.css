@@ -1,0 +1,37 @@
+body{
+    background-color: rgb(180, 240, 221);
+}
+.header h1{
+    padding: 10px 280px;
+    border-color: black;
+    border-radius: 20px;
+}
+fieldset{
+    background-color: azure;
+    height: 50vh;
+    width: 40vw;
+    margin: 100px 200px;
+}
+fieldset legend{
+    color: rgb(243, 21, 32);
+    text-decoration: burlywood;
+}
+.details{
+    margin: 10px;
+    font-size: x-large;
+    flex-direction: row;
+    padding: 10px 20px;
+    margin: 20px;
+    
+
+}
+fieldset label{
+margin: 20px 20px 20px;
+
+}
+.button{
+    padding: 10px 200px;
+    display: inline-block;
+    width: 150px;
+    font-size:x-large ;
+}

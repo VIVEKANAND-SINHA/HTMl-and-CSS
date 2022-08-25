@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+
+<body>
+
+    <form action="form" oninput="c.value = parseInt(a.value)+parseInt(b.value)">
+        a 
+        <input type="number" name = "a" id="a" step="0.5">
+        + b 
+        <input type="number" name="b" id="b">
+        <output name = "x" for = "a b"></output>
+        <h1>datalist</h1>
+        <input list = "country" name="xyz">
+        <datalist id="country" >
+            <option value="India">India</option>
+            <option value="Indonesia">Indonesia</option>
+            <option value="Itlay">Itlay</option>
+            <option value="amazon">amazon</option>
+        </datalist>
+        <br>
+        <input type="text" placeholder="Enter your name">
+        <br>
+        <button>Submit</button>
+        <select name="Place" id="place" size="1">
+            <option value="goa">goa</option>
+            <option value="Shimla">Shimla</option>
+            <option value="goa">goa</option>
+            <option value="Shimla">Shimla</option>
+            <option value="goa">goa</option>
+            <option value="Shimla">Shimla</option>
+        </select>
+        <br>
+        <br>
+        <textarea name="intro" id="" cols="30" rows="10">this is text area</textarea>
+        <button type="button" onclick="alert('this is my button')"> button </button>
+    </form>
+    <fieldset>
+        <legend>this is legned tag use to give the heading to the fieldset </legend>
+        <label for="name"> First name</label>
+        <input type="text" name="Name" id="Name">
+        <label for="name"> middle name</label>
+        <input type="text" name="Name" id="Name">
+        <label for="name"> last name</label>
+        <input type="text" name="Name" id="Name">
+    </fieldset>
+    <output>
+
+    </output>
+
+</body>
+
+</html>
