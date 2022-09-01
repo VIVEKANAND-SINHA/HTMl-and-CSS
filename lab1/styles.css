@@ -1,0 +1,64 @@
+body{
+    background-color: rgb(180, 240, 221);
+}
+.header h1{
+    padding: 10px 280px;
+    border-color: black;
+    border-radius: 20px;
+}
+.Login{
+    background-color: azure;
+    height: 40vh;
+    width: 200px;
+    margin: 100px 200px;
+}
+fieldset legend{
+    color: rgb(243, 21, 32);
+    text-decoration: burlywood;
+}
+.details{
+    margin: 10px;
+    font-size: x-large;
+    flex-direction: row;
+    padding: 10px 20px;
+    margin: 20px;
+    
+
+}
+fieldset label{
+margin: 20px 20px 20px;
+
+}
+.button{
+    padding: 10px 200px;
+    display: inline-block;
+    width: 150px;
+    font-size:x-large ;
+}
+.Navi{
+    background-color: rgb(211, 207, 0);
+    flex-direction: row;
+    flex: content;
+}
+
+.Navigationbar{
+    background-color: rgb(7, 7, 7);
+    overflow: hidden;
+}
+.Navigationbar a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 10px 26px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  .Navigationbar a:hover {
+    background-color: rgb(20, 235, 224);
+    color: black;
+  }
+  .Navigationbar a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+ 

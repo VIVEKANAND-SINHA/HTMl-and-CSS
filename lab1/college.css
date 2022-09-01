@@ -1,0 +1,40 @@
+.collegeheading{
+    background-color: #2bffb1;
+    margin: 20px;
+    border: 10px;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+  }
+.classimg{
+height: 350px;
+margin: 10px 20px;
+border-width: 2px;
+border-style: outset;
+border-color: #032e1e;
+  }
+.classroom{
+    display: flex;
+    align-items: center;
+    padding: 0 6px 20px;
+
+}
+
+.classroom p{
+    background-color: aqua;
+    box-sizing: border-box;
+}
+.classtext{
+    width: 400px;
+}
+.library{
+    display: flex;
+    align-items:center;
+}
+.library img{
+    height: 300px;
+    width: 600px;
+    margin: 10px;
+    border-style: outset;
+    border-color: black;
+}
