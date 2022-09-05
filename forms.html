@@ -9,7 +9,39 @@
 </head>
 
 <body>
+    <form action="basic.html" target="_blank" method="get" enctype="" onsubmit=""></form>
+    <h1>form attibutes</h1>
+    <pre>
+        action : used to specify what to do after the submison
+        target : to choose the tab on which the new link will be open _blank for new tab
+        method : tells about the method of submission 
+        there are two types of methods 1) get  2) post
+        get : do not have a body only contaion header, data is sended in url,
+         it is not very secure as all the information is saved in url 
+         its limitaion is 2048 characters in one time the reaming data will be truncate
+        post : it is more secure then the get as it send info with a body whihc is access at the backend 
+        it do not have a limited size for sending   
+        enctype: use to encrypt the data
+        autocomplete: use to autocomplete the data based on previous data to give suggestion
+        nonvalidate: 
+        onsubmit : take a javascript funtion and launches that fucniton at the time of submission.
 
+    </pre>
+    hidden <input type="hidden" name="hid" id="hid" style="background-color: black;">
+    <br>
+    date
+    <input type="date" name="date" >
+    <br>
+    Email
+    <input type="email" name="em" id="em">
+<br>
+number <input type="number" name = "name" min="10" max="20">
+<br>
+range 
+<br>
+0 <input type="range" name="range" min="0" max="100">100
+<br>
+search <input type="search" name="search">
     <form action="form" oninput="c.value = parseInt(a.value)+parseInt(b.value)">
         a 
         <input type="number" name = "a" id="a" step="0.5">
@@ -48,11 +80,12 @@
         <label for="name"> middle name</label>
         <input type="text" name="Name" id="Name">
         <label for="name"> last name</label>
-        <input type="text" name="Name" id="Name">
+        <input type="text" name="Name" id="Name" required>
     </fieldset>
     <output>
 
     </output>
+    
 
 </body>
 
