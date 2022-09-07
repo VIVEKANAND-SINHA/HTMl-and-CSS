@@ -1,0 +1,25 @@
+var parser = new DOMParser();
+<!-- creates a new parser -->
+var xmlDom = parser.parseFromString(); 
+<!-- creates a new xml dom object using string -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<body>
+    <h1 id="heading"> HTML</h1>
+    
+</body>
+</html>
+<script>
+    var parser,xmlDom;
+    var food = "<food> <fruits> <name> apple</name> <color> red</color> <taste> sweet </taste> </fruits> </food>";
+    parser = new DOMParser();
+    xmlDom = parser.parseFromString(food,"text/xml");
+    document.getElementById('heading').innerHTML = xmlDom.getElementsByTagName("name")[0].childNodes[0].nodeValue;
+</script>

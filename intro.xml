@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<food>
+    <fruits season = "winters">
+        <name> apple </name>
+        <color> red </color>
+        <taste> sweet </taste>
+    </fruits>
+    <fruits season = "summer">
+        <name> Mango </name>
+        <color> Yellow </color>
+        <taste> sweet </taste>
+    </fruits>
+</food>
