@@ -12,7 +12,7 @@ var xmlDom = parser.parseFromString();
 
 </head>
 <body>
-    <h1 id="heading"> HTML</h1>
+    <h1 id="heading"> THIS is HTML TAG</h1>
     
 </body>
 </html>
@@ -22,4 +22,11 @@ var xmlDom = parser.parseFromString();
     parser = new DOMParser();
     xmlDom = parser.parseFromString(food,"text/xml");
     document.getElementById('heading').innerHTML = xmlDom.getElementsByTagName("name")[0].childNodes[0].nodeValue;
+    var x = xmlDom.documentElement.childNodes
+    var text = "";
+    for (var i = 0; i<x.length;i++){
+        if (x[i].nodeType == 1){
+            text = text + x[i].nodeName + "<br>";
+        }
+    }
 </script>
