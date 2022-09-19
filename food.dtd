@@ -1,0 +1,9 @@
+<!DOCTYPE food [ 
+<!ELEMENT food (fruits)*> 
+<!ELEMENT fruits (name, color, taste)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT color (#PCDATA)>
+<!ELEMENT taste (#PCDATA)>
+]>
+
+

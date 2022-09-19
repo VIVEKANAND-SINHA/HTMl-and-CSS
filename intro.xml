@@ -1,13 +1,29 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"  standalone='no'?>
+<!DOCTYPE food SYSTEM "food.dtd">
 <food>
-    <fruits season = "winters">
+    <fruits >
         <name> apple </name>
         <color> red </color>
         <taste> sweet </taste>
     </fruits>
-    <fruits season = "summer">
+    <fruits >
         <name> Mango </name>
         <color> Yellow </color>
+        <taste> sweet </taste>
+    </fruits>
+    <fruits >
+        <name> Banana </name>
+        <color> Yellow </color>
+        <taste> sweet </taste>
+    </fruits>
+    <fruits >
+        <name> Mango </name>
+        <color> Yellow </color>
+        <taste> sweet </taste>
+    </fruits>
+    <fruits>
+        <name> watermelon</name>
+        <color> green </color>
         <taste> sweet </taste>
     </fruits>
 </food>
