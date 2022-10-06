@@ -13,8 +13,22 @@ button{
     font-style: oblique ;
     /* text-align: center; */
     justify-content: center;
+    line-height: 40px;
 }
 #p1{
     background-color: black;
     color: red;
+    cursor: pointer;
+    position: fixed;
+}
+#p1:hover{
+    box-shadow: 10px 10px rbga(0,0,0,0.5);
+}
+#test{
+    background-color: antiquewhite;
+    color: green;
+    cursor: pointer;
+    /* position: fixed; */
+    float: right;
+    background-color: blueviolet;
 }

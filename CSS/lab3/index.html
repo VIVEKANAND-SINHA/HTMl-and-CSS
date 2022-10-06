@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS tutorial</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .internal{
+            background-color: aqua;
+            padding: 10px;
+            margin: 10px 10px 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="background-color: yellow; color:rgb(211, 38, 15) ;padding:10px;text-align:center;border:3px;border-style:solid;border-color:black">CSS: Cascading style Sheets</h1>
+    <h2>there are three three ways to add a css in our documents</h2>
+    <ol>
+        <b> <li>Inline CSS</li>
+        <li>Internal CSS</li>
+        <li>External CSS</li>
+    </b>
+    </ol>
+    <fieldset style="background-color: rgb(148, 236, 148);">
+        <legend>InLine CSS</legend>
+        <p> <b style="color: rgb(238, 10, 219);"> this paragraph is to show the inline css. <br>
+            this is done inside the html tag by sytle attribut 
+        
+        </b></p>
+    </fieldset>
+    <fieldset class = "internal" id = "internal">
+        <legend>Internal CSS </legend>
+        <p>
+            <b>in this the styling is done inside the head tag <br> 
+                by writing all the styling in the style tag</b>
+        </p>
+    </fieldset>
+    <fieldset id = "External" class = "external">
+        <legend>External Css</legend>
+        <p class = 'text' id = 'text'><b>
+            External Css is linked with the link tag and <br>
+            we create a .css file and write all the styling inside that <br>
+            items are selected using the selectors
+        </b></p>
+    </fieldset>
+    
+    
+</body>
+</html>

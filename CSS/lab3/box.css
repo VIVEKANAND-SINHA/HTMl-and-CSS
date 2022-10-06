@@ -1,0 +1,26 @@
+.heading{
+    background-color: bisque;
+    padding: 2px 2px 2px;
+    text-align: center;
+    border: 2px;
+    border-radius: 20px;
+    border-style: solid;
+    margin: 2px 2px 2px;
+}
+.headingtext{
+    color: blue;
+    text-shadow: 2px 2px ;
+    text-decoration: solid;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.introli{
+    background-color: rgb(242, 245, 73);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 20px 200px 20px;
+    color: rgb(17, 31, 226);
+    margin: 50px 10px;
+    text-decoration: solid;
+    border: 2px;
+    border-radius: 10px;
+    border-style: double;
+}
