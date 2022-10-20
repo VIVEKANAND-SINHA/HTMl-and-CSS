@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log In Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    #login{
+        background-color: rgb(127, 250, 234);
+        border-color: black;
+        border-style: ridge;
+        width: 300px;
+        height: 350px;
+        align-items: center;
+        margin: 20px 250px 120px ;
+
+
+
+    }
+    .data{
+        margin: 5px;
+        border-radius: 5px;
+        border-color: black;
+        border-style: ridge;
+    }
+   
+    
+
+</style>
+<body>
+    <script src="script.js"></script>
+    <h1 style="background-color: rgb(129, 250, 129);text-align:center; border:2px; border-radius:5px ;border-style:ridge;">Noida Institute of Engineering And Technology</h1>
+    <fieldset id="mainwin">
+        <legend>Log In</legend>
+        <h3>Kindly Fill Your Registraion Details Correctly !</h3>
+        <div id="login" >
+            <table>
+                <tr>
+                    <td>Name :</td>
+                    <td><input type="text" id="name" class="data" placeholder="Enter your Name">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Phone No. : </td>
+                    <td> <input type="text" id="phone_no" class="data"    placeholder="Enter your phone no"></td>
+                </tr>
+                <tr>
+                    <td>Department :</td>
+                    <td><select name="dept" id="dept" class="data">
+                        <option value="cse">CSE</option>
+                        <option value="Biotech">BioTech</option>
+                        <option value="It">IT</option>
+                        <option value="Ml">AI & ML</option>
+                    </select></td>
+                </tr>
+                <tr>
+                    <td>Roll No. :</td>
+                    <td><input type="text" name="rollno" id="rollno"  class = 'data' placeholder="Enter your roll no"></td>
+                </tr>
+                <tr>
+                    <td>Address</td>
+                    <td><textarea name="add" id="add" class="data" cols="20" rows="2"></textarea></td>
+                </tr>
+            </table>
+
+            <button id="submit" onclick="getdata()">Submit</button> 
+
+
+            
+        </div>
+    </fieldset>
+    <script>
+        
+    </script>
+    
+</body>
+</html>

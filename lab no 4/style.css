@@ -1,0 +1,30 @@
+body{
+    background-color: rgb(255, 208, 235);
+}
+.data{
+    padding: 5px;
+}
+table{
+    margin: 10px;
+}
+#submit{
+    margin: 10px 50px;
+    color: green;
+    margin-left: 120px;
+}
+
+button{
+    padding: 5px;
+    margin: 0px 10px;
+    text-decoration: solid;
+    padding: 5px;
+}
+fieldset{
+    background-color: rgb(87, 252, 183);
+    margin-left: 250px;
+    height: 450px;
+    width: 150px;
+    border: 5px;
+    border-color: black;
+    border-style: ridge;
+}
